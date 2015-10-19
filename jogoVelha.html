@@ -1,0 +1,62 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="Styles/JogoVelha.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/jogoVelha.js" type="text/javascript"></script>
+    <script src="Scripts/jogoVelhaIA.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="containerCentral">
+        <fieldset>
+            <legend>Jogo da velha</legend>
+            <div id="placar">
+                <table cellpadding="5" cellspacing="1" border="1">
+                    <tr>
+                        <th>
+                            Vitórias
+                        </th>
+                        <th>
+                            Derrotas
+                        </th>
+                        <th>
+                            Empates
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span id="spanVitorias">0</span>
+                        </td>
+                        <td>
+                            <span id="spanDerrotas">0</span>
+                        </td>
+                        <td>
+                            <span id="spanEmpates">0</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="jogoVelha">
+                <div class="firstLine firstColumn" id="jv0_0">
+                </div>
+                <div class="firstLine" id="jv1_0">
+                </div>
+                <div class="firstLine lastColumn" id="jv2_0">
+                </div>
+                <div class="firstColumn" id="jv0_1">
+                </div>
+                <div id="jv1_1">
+                </div>
+                <div class="lastColumn" id="jv2_1">
+                </div>
+                <div class="firstColumn lastLine" id="jv0_2">
+                </div>
+                <div class="lastLine" id="jv1_2">
+                </div>
+                <div class="lastLine lastColumn" id="jv2_2">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+﻿#containerCentral
+        {
+            display: inline-block;
+            width: 330px;
+        }
+        
+        #jogoVelha
+        {
+            width: 304px;
+            margin: 0 13px 13px 13px;
+            height: 304px;
+            float: left;
+        }
+        
+        #placar
+        {
+            margin-left: 60px;
+            float: left;
+            clear: both;
+            margin-bottom: 40px;
+        }
+        
+        #placar table td, #placar table th
+        {
+            border: 1px solid;
+        }
+        
+        #jogoVelha div
+        {
+            border: 1px solid #cecece;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            float: left;
+        }
+        
+        .firstPlayerCell
+        {
+            background: url('../imgs/tic-tac-toe-O.png');
+        }
+        .secondPlayerCell
+        {
+            background: url('../imgs/tic-tac-toe-X.png');
+        }
+        .spanPlacar
+        {
+            margin-left: 3px;
+            maargin-right: 10px;
+            font-weight: bold;
+        }
+        #spanVitorias
+        {
+            color: Green;
+        }
+        #spanDerrotas
+        {
+            color: Red;
+        }
+        #jogoVelha .firstLine
+        {
+            border-top: 0px;
+        }
+        #jogoVelha .lastLine
+        {
+            border-bottom: 0px;
+        }
+        #jogoVelha .firstColumn
+        {
+            border-left: 0px;
+        }
+        #jogoVelha .lastColumn
+        {
+            border-right: 0px;
+        }
+        #placar tr th
+        {
+            background-color: #cecece;
+        }
+        #placar tr td
+        {
+            text-align: center;
+            font-weight: bold;
+            font-size: x-large;
+        }
